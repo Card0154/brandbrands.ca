@@ -145,31 +145,15 @@ footer {
   line-height: 1.3rem;
 }
 
-.cards {
-  width: 98%;
-}
-
-.margin-around {
-  margin: 1.5%;
-}
-
 .banner-second {
   background-color: #e6e6e6;
 }
 
-.slogan {
-  left: 50%;
-  top: 50%;
-  transform: translate(-50%, -10%);
-  -webkit-transform: translate(-50%, -10%);
-}
-
-.image {
-  width: 192px;
-  left: 50%;
-  top: 30%;
-  transform: translate(-50%, -30%);
-  -webkit-transform: translate(-50%, -30%);
+.max-length {
+  margin-left: 0;
+  margin-right: 0;
+  max-width: 100%;
+  width: 100%;
 }
 
 @media only screen and (min-width: 38em) {
@@ -210,14 +194,6 @@ footer {
     max-width: 750px;
   }
 
-  .non-hidden {
-    display: none;
-  }
-
-  .hiding {
-    display: block;
-  }
-
   .micro {
     font-size: 1.1385rem;
     line-height: 1.625rem;
@@ -231,28 +207,6 @@ footer {
   .milli {
     font-size: .9372rem;
     line-height: 1.3rem;
-  }
-
-  .cards {
-    width: 46.5%;
-  }
-
-  .margin-around {
-    margin: 1.5%;
-  }
-
-  .slogan {
-    left: 15%;
-    top: 50%;
-    transform: translate(-15%, -50%);
-    -webkit-transform: translate(-15%, -50%);
-  }
-
-  .image {
-    left: 85%;
-    top: 50%;
-    transform: translate(-85%, -50%);
-    -webkit-transform: translate(-85%, -50%);
   }
 }
 
@@ -268,6 +222,19 @@ footer {
 
   .space-fix {
     width: 200px;
+  }
+
+  .cards {
+    width: 45%;
+  }
+
+  .margin-around {
+    vertical-align: middle;
+    margin: 1.5%;
+  }
+
+  .block {
+    display: inline-block;
   }
 
 }
