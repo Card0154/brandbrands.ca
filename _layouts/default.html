@@ -1,8 +1,4 @@
 <!DOCTYPE html>
-<html lang="en-ca">
-<head>
-  <meta charset="utf-8">
-  <title><!DOCTYPE html>
   <html lang="en-ca">
   <head>
     <meta charset="utf-8">
@@ -12,9 +8,7 @@
     <link href="{{site.baseurl}}/css/modules.css" rel="stylesheet">
     <link href="{{site.baseurl}}/css/grids.css" rel="stylesheet">
     <link href="{{site.baseurl}}/css/type.css" rel="stylesheet">
-    <link href="{{site.baseurl}}/css/home.css" rel="stylesheet">
-    <link href="{{site.baseurl}}/css/contact.css" rel="stylesheet">
-    <link href="{{site.baseurl}}/css/work.css" rel="stylesheet">
+    {{page.css | replace:"++site.baseurl++", site.baseurl}}
   </head>
   <body>
 
