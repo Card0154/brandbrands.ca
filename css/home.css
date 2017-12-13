@@ -8,9 +8,9 @@ html {
   font-family: 'ABeeZee', sans-serif;
   color: #000;
   box-sizing: border-box;
-  background-image: url("../images/placeholder.jpg");
-  background-size: cover;
-  background-repeat: no-repeat;
+  background-image: url("../images/background-image.png");
+  background-size: contain;
+  background-repeat: repeat;
 }
 
 *, *::before, *::after {
@@ -35,8 +35,11 @@ nav ul a {
   display: inline-block;
   text-decoration: none;
   color: #000;
-  transition: all .5s ease;
   -webkit-transition: all .5s ease;
+  -moz-transition: all .5s ease;
+  -o-transition: all .5s ease;
+  -ms-transition: all .5s ease;
+  transition: all .5s ease;
 }
 
 nav ul a:hover {
@@ -64,7 +67,7 @@ nav ul a:hover {
 }
 
 .slogan {
-  left: 25%;
+  left: 20%;
   top: 65%;
   transform: translate(-20%, -65%);
   -webkit-transform: translate(-20%, -65%);
@@ -83,26 +86,24 @@ nav ul a:hover {
 }
 
 .btn {
-  font-weight: normal;
-  padding: 5px 10px;
-  color: #fff;
-  border: 2px solid grey;
-  border-radius: 20px;
-  background-color: grey;
+  padding: 10px 20px;
+  color: #046180;
+  border: 3px solid #046180;
+  border-radius: 0;
   transition: all .5s ease;
+  background-color: transparent;
 }
 
 .btn:hover {
-  color: #fff;
-  background-color: lightblue;
-  border-color: lightblue;
+  color: #e8a423;
+  border: 3px solid #e8a423;
+  background-color: transparent;
+  border-radius: 30px;
 }
 
 .btn:focus {
   outline: 0;
-  border-radius: 20px;
-  background-color: lightblue;
-  border-color: lightblue;
+  background-color: transparent;
 }
 
 a:focus {
@@ -110,7 +111,8 @@ a:focus {
 }
 
 footer {
-  background-color: transparent;
+  color: #fff;
+  background-color: black;
 }
 
 .banner {
@@ -120,11 +122,6 @@ footer {
 .marg {
   margin:.65rem;
   text-decoration: none;
-}
-
-.yotta {
-  font-size: 1rem;
-  line-height: 1.5rem;
 }
 
 .exa {
@@ -153,9 +150,41 @@ footer {
   font-weight: 800;
 }
 
-.milli {
-  font-size: .8784rem;
-  line-height: 1.3rem;
+.pbd {
+  padding-bottom: 2.6rem;
+}
+
+.ptd {
+  padding-top: 2.6rem;
+}
+
+.card {
+  -webkit-filter: brightness(100%);
+  -webkit-transition: all 0.25s ease;
+  -moz-transition: all 0.25s ease;
+  -o-transition: all 0.25s ease;
+  -ms-transition: all 0.25s ease;
+  transition: all 0.25s ease;
+}
+
+.card:hover {
+  -webkit-filter: brightness(80%);
+}
+
+.glow {
+  padding: .4rem;;
+  color: #046180;
+  transition: all .5s ease;
+  background-color: transparent;
+}
+
+.glow:hover {
+  color: #e8a423;
+  background-color: transparent;
+}
+
+.m-right {
+  margin-right: 10px;
 }
 
 @media only screen and (min-width: 38em) {
@@ -183,20 +212,11 @@ footer {
     width: 100px;
   }
 
-  .btn {
-    padding: 10px 20px;
-    color: #fff;
-    border: 2px solid grey;
-    border-radius: 30px;
-    background-color: grey;
-    transition: all .5s ease;
-  }
-
   .slogan {
-    left: 20%;
+    left: 25%;
     top: 65%;
-    transform: translate(-20%, -65%);
-    -webkit-transform: translate(-20%, -65%);
+    transform: translate(-25%, -65%);
+    -webkit-transform: translate(-25%, -65%);
   }
 
   .line {
@@ -211,26 +231,21 @@ footer {
     display: block;
   }
 
-  .micro {
-    font-size: 1.1385rem;
-    line-height: 1.625rem;
-  }
-
   .space-fix {
     width: 150px;
     padding-top: 3px;
-  }
-
-  .milli {
-    font-size: .9372rem;
-    line-height: 1.3rem;
   }
 }
 
 @media only screen and (min-width: 60em) {
 
+  .slogan {
+    top: 62%;
+    -webkit-transform: translate(-25%, -62%);
+  }
+
   .banner {
-    height: 617px;
+    height: 85vh;
   }
 
   .space-fix {
