@@ -7,11 +7,11 @@
     <link href="{{site.baseurl}}/css/modules.css" rel="stylesheet">
     <link href="{{site.baseurl}}/css/grids.css" rel="stylesheet">
     <link href="{{site.baseurl}}/css/type.css" rel="stylesheet">
-    <link href="{{site.baseurl}}/css/home.css" ref="stylesheet">
+    <link href="{{site.baseurl}}/css/home.css" rel="stylesheet">
   </head>
   <body>
 
-    <header class="relative zindex-2" role="banner">
+    <header class="relative zindex-2 island-quarter media push-half" role="banner">
       <nav class="island-half" id="nav">
         <div class="space-fix">
           <i>
@@ -21,9 +21,9 @@
           </i>
         </div>
         <div class="inline-block position-right group">
-          <ul class="list-group-inline push-0">
+          <ul class="list-group-inline push-0 nudge-top">
             <li class="push-0"><a class="kilo inline m-right glow text-center" href="{{site.baseurl}}/photography/">photography</a></li>
-            <li class="push-0"><a class="kilo inline glow text-center" href="{{site.baseurl}}/contact/">contact</a></li>
+            <li class="push-0"><a class="kilo inline glow text-center" href="#contact">contact</a></li>
           </ul>
         </div>
       </nav>
@@ -33,9 +33,14 @@
       {{content}}
     </main>
 
-    <footer class="text-center footer pbd ptd gutter">
+    <footer class="text-center footer pbd ptd gutter" id="contact">
       <p class="milli push-0 inline-block">Copyright © 2017 Brandon Cardenas.</p>
-      <p class="milli push-half inline-block ">All rights reserved.</p>
+      <p class="milli push-0 inline-block ">All rights reserved.</p>
+      <div>
+        <p class="inline-block gutter-half">613-883-9250</p>
+        <p class="inline-block">|</p>
+        <p class="inline-block gutter-half">hello@brandbrands.ca</p>
+      </div>
       <div class="list-group list-group-inline">
         <a class="marg" href="https://www.facebook.com/brandon.cardenas.961">
           <i class="icon i-32">

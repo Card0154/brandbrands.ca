@@ -115,8 +115,8 @@ footer {
   background-color: black;
 }
 
-.banner {
-  min-height: 400px;
+.banner-2 {
+  height: 200px;
 }
 
 .marg {
@@ -187,14 +187,91 @@ footer {
   margin-right: 10px;
 }
 
+.title {
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  -webkit-transform: translate(-50%, -50%);
+  letter-spacing: .75em;
+}
+
+.banner {
+  height: 50vh;
+}
+
+.banner-3 {
+  height: 100%;
+}
+
+.banner-4 {
+  height: 100%;
+}
+
+.container {
+  max-width: 50%;
+}
+
+.notation {
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -webkit-transform: translate(-50%, -50%);
+  width: 80%;
+}
+
+.banner-background {
+  background-color: #fff;
+}
+
+.me {
+  vertical-align: middle;
+  width: 80%;
+}
+
+.half {
+  width: 100%;
+}
+
+.left {
+  float: none;
+}
+
+.right {
+  float: none;
+}
+
+.pad-tb {
+  padding-top: 1em;
+  padding-bottom: 1em;
+}
+
+.spec-island {
+  padding: 0;
+}
+
+.max-length-2 {
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 36em;
+  width: 100%;
+}
+
+@media only screen and (min-width: 25em) {
+
+  .spec-island {
+    padding: 2.6rem;
+  }
+
+}
+
 @media only screen and (min-width: 38em) {
 
   .contact {
     text-align: center;
   }
 
-  .banner {
-    height: 636px;
+  .banner-2 {
+    height: 300px;
   }
 
   .yotta {
@@ -235,6 +312,55 @@ footer {
     width: 150px;
     padding-top: 3px;
   }
+
+  .title {
+    letter-spacing: .85em;
+  }
+
+  .banner {
+    height: 85vh;
+  }
+
+  .nudge-top {
+    padding-top: .4rem;
+  }
+
+  .notation {
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -webkit-transform: translate(-50%, -50%);
+    width: 60%;
+  }
+
+  .max-length-2 {
+    margin-left: 0;
+    margin-right: 0;
+    max-width: 100%;
+    width: 100%;
+  }
+
+  .half {
+    vertical-align: middle;
+    width: 49%;
+  }
+
+  .i2 {
+    padding-left: .65rem;
+  }
+
+  .i1 {
+    padding-right: .65rem;
+  }
+
+  h2 {
+    margin: 0;
+  }
+
+  .align-text {
+    padding-top: 5%;
+  }
+
 }
 
 @media only screen and (min-width: 60em) {
@@ -244,12 +370,36 @@ footer {
     -webkit-transform: translate(-25%, -62%);
   }
 
-  .banner {
-    height: 85vh;
+  .title {
+    letter-spacing: .85em;
   }
 
   .space-fix {
     width: 200px;
   }
 
+  .i2 {
+    padding-left: 1.3rem;
+  }
+
+  .i1 {
+    padding-right: 1.3rem;
+  }
+
+  .notation {
+    top: 50%;
+    left: 80%;
+    transform: translate(-80%, -50%);
+    -webkit-transform: translate(-80%, -50%);
+    width: 40%;
+  }
+
+  .align-text {
+    padding-top: 15%;
+  }
+
+  .push-in {
+    margin-left: 10%;
+    margin-right: 10%;
+  }
 }
