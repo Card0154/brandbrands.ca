@@ -5,12 +5,16 @@
 @viewport { width: device-width; scale: 1; }
 
 html {
-  font-family: 'ABeeZee', sans-serif;
+  font-family: sans-serif;
   color: #000;
   box-sizing: border-box;
   background-image: url("../images/background-image.png");
   background-size: contain;
   background-repeat: repeat;
+}
+
+.fonts-loaded {
+  font-family: 'ABeeZee', sans-serif;
 }
 
 *, *::before, *::after {
