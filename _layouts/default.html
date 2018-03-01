@@ -1,66 +1,62 @@
 <!DOCTYPE html>
-  <html lang="en-ca">
-  <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width,initial-scale=1">
-    <link href="https://fonts.googleapis.com/css?family=ABeeZee|Heebo:400,800" rel="stylesheet">
-    <link href="{{site.baseurl}}/css/site.css" rel="stylesheet">
-  </head>
-  <body>
+<html lang="en-ca">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <link href="https://fonts.googleapis.com/css?family=ABeeZee|Heebo:400,800" rel="stylesheet">
+  <link href="{{site.baseurl}}/css/site.css" rel="stylesheet">
+  <link rel="shortcut icon" href="{{site.baseurl}}/images/favicon-01.png" type="image/png">
+</head>
 
-    <header class="relative zindex-2 island-quarter media push-half" role="banner">
-      <nav class="island-half" id="nav">
-        <div class="space-fix">
-          <i>
-            <a href="{{site.baseurl}}/">
-              <img class="icon logo" src="{{site.baseurl}}/images/logo-placeholder.svg" alt="Brandon Cardenas Design's Logo" aria-describedat="A logo that says Brandon, but is composed to say Brand On instead.">
-            </a>
-          </i>
-        </div>
-        <div class="inline-block position-right group">
-          <ul class="list-group-inline push-0 nudge-top">
-            <li class="push-0"><a class="kilo inline m-right glow text-center" href="{{site.baseurl}}/photography/">photography</a></li>
-            <li class="push-0"><a class="kilo inline glow text-center" href="#contact">contact</a></li>
-          </ul>
-        </div>
-      </nav>
-    </header>
-
-    <main>
-      {{content}}
-    </main>
-
-    <footer class="text-center footer pbd ptd gutter" id="contact">
-      <p class="milli push-0 inline-block">Copyright © 2017 Brandon Cardenas.</p>
-      <p class="milli push-0 inline-block ">All rights reserved.</p>
-      <div>
-        <p class="inline-block gutter-half">613-883-9250</p>
-        <p class="inline-block">|</p>
-        <p class="inline-block gutter-half">hello@brandbrands.ca</p>
+<body>
+  <header class="relative zindex-2 island-quarter media push-half" role="banner">
+    <nav class="island-half" id="nav">
+      <div class="space-fix">
+        <i>
+          <a href="{{site.baseurl}}/">
+            <img class="icon logo" src="{{site.baseurl}}/images/logo-placeholder.svg" alt="Brandon Cardenas Design's Logo" aria-describedat="A logo that says Brandon, but is composed to say Brand On instead.">
+          </a>
+        </i>
       </div>
-      <div class="list-group list-group-inline">
-        <a class="marg" href="https://www.facebook.com/brandon.cardenas.961">
-          <i class="icon i-32">
-            <img src="{{site.baseurl}}/images/facebook-logo.png">
-          </i>
-        </a>
-        <a class="marg" href="https://twitter.com/CardenasDesigns">
-          <i class="icon i-32">
-            <img src="{{site.baseurl}}/images/twitter-logo.png">
-          </i>
-        </a>
-        <a class="marg" href="https://www.instagram.com/bcard0154/">
-          <i class="icon i-32">
-            <img src="{{site.baseurl}}/images/instagram-logo.png">
-          </i>
-        </a>
-        <a class="marg" href="https://www.behance.net/card015495ee">
-          <i class="icon i-32">
-            <img src="{{site.baseurl}}/images/behance-logo.png">
-          </i>
-        </a>
+      <div class="inline-block position-right group">
+        <ul class="list-group-inline push-0 nudge-top">
+          <li class="push-0"><a class="kilo inline m-right glow text-center" href="{{site.baseurl}}/photography/">photography</a></li>
+          <li class="push-0"><a class="kilo inline glow text-center" href="#contact">contact</a></li>
+        </ul>
       </div>
-    </footer>
+    </nav>
+  </header>
+
+  <main>
+    {{content}}
+  </main>
+
+  <footer class="text-center footer pbd ptd gutter" id="contact">
+    <p class="milli push-0 inline-block">Copyright © 2017 Brandon Cardenas.</p>
+    <p class="milli push-0 inline-block ">All rights reserved.</p>
+    <div>
+      <p class="inline-block gutter-half">613-883-9250</p>
+      <p class="inline-block">|</p>
+      <p class="inline-block gutter-half">hello@brandbrands.ca</p>
+    </div>
+    <div class="list-group list-group-inline">
+      <a class="marg" href="https://twitter.com/CardenasDesigns">
+        <i class="icon i-32">
+          <img src="{{site.baseurl}}/images/twitter-logo.png">
+        </i>
+      </a>
+      <a class="marg" href="https://www.instagram.com/bcard0154/">
+        <i class="icon i-32">
+          <img src="{{site.baseurl}}/images/instagram-logo.png">
+        </i>
+      </a>
+      <a class="marg" href="https://www.behance.net/card015495ee">
+        <i class="icon i-32">
+          <img src="{{site.baseurl}}/images/behance-logo.png">
+        </i>
+      </a>
+    </div>
+  </footer>
 
   <script>
   (function(){'use strict';var f,g=[];function l(a){g.push(a);1==g.length&&f()}function m(){for(;g.length;)g[0](),g.shift()}f=function(){setTimeout(m)};function n(a){this.a=p;this.b=void 0;this.f=[];var b=this;try{a(function(a){q(b,a)},function(a){r(b,a)})}catch(c){r(b,c)}}var p=2;function t(a){return new n(function(b,c){c(a)})}function u(a){return new n(function(b){b(a)})}function q(a,b){if(a.a==p){if(b==a)throw new TypeError;var c=!1;try{var d=b&&b.then;if(null!=b&&"object"==typeof b&&"function"==typeof d){d.call(b,function(b){c||q(a,b);c=!0},function(b){c||r(a,b);c=!0});return}}catch(e){c||r(a,e);return}a.a=0;a.b=b;v(a)}}
@@ -100,5 +96,5 @@
       document.documentElement.className += ' fonts-loaded';
     }
   </script>
-  </body>
+</body>
 </html>

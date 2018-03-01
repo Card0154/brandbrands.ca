@@ -8,9 +8,12 @@ html {
   font-family: sans-serif;
   color: #000;
   box-sizing: border-box;
-  background-image: url("../images/background-image.png");
   background-size: contain;
   background-repeat: repeat;
+}
+
+.html-bg {
+  background-image: url("../images/background-image.png");
 }
 
 .fonts-loaded {
@@ -72,9 +75,9 @@ nav ul a:hover {
 
 .slogan {
   left: 20%;
-  top: 65%;
-  transform: translate(-20%, -65%);
-  -webkit-transform: translate(-20%, -65%);
+  top: 50%;
+  transform: translate(-20%, -50%);
+  -webkit-transform: translate(-20%, -50%);
 }
 
 .links {
@@ -260,12 +263,60 @@ footer {
   width: 100%;
 }
 
+.grey {
+  background-color: #f9f9f9;
+}
+
+.img-border {
+  background-color: #fff;
+  border: solid 5px white
+}
+
+.img-border-spec {
+  background-color: #fff;
+  border-bottom: solid 10px white
+}
+
+.img-border-spec-2 {
+  background-color: #fff;
+  border-bottom: solid 5px white
+}
+
+.photo-border {
+  margin-left: 1%;
+  margin-right: 1%;
+}
+
+.white {
+  color: #fff;
+}
+
+.bg-black {
+  background-color: #0a0a0a;
+}
+
+.push-fix {
+  margin-bottom: .325rem;
+}
+
+.situational-pad-t {
+  padding-top: 0;
+}
+
+.gutter-s {
+  padding-left: 0;
+}
+
+.hidden-2 {
+  display: none;
+  visibility: hidden;
+}
+
 @media only screen and (min-width: 25em) {
 
   .spec-island {
     padding: 2.6rem;
   }
-
 }
 
 @media only screen and (min-width: 38em) {
@@ -295,9 +346,9 @@ footer {
 
   .slogan {
     left: 25%;
-    top: 65%;
-    transform: translate(-25%, -65%);
-    -webkit-transform: translate(-25%, -65%);
+    top: 50%;
+    transform: translate(-25%, -50%);
+    -webkit-transform: translate(-25%, -50%);
   }
 
   .line {
@@ -346,7 +397,7 @@ footer {
 
   .half {
     vertical-align: middle;
-    width: 49%;
+    width: 48%;
   }
 
   .i2 {
@@ -361,17 +412,34 @@ footer {
     margin: 0;
   }
 
-  .align-text {
-    padding-top: 5%;
+  .gutter-s {
+    padding-left: 1.3rem;
   }
 
+  .push-in-2 {
+    margin-left: 15%;
+    margin-right: 15%;
+  }
+
+  .hidden-2 {
+    display: inline-block;
+    visibility: visible;
+  }
+
+  .situational-pad-t {
+    padding-top: 0;
+  }
 }
 
 @media only screen and (min-width: 60em) {
 
+  .half {
+    width: 49.5%;
+  }
+
   .slogan {
-    top: 62%;
-    -webkit-transform: translate(-25%, -62%);
+    top: 52%;
+    -webkit-transform: translate(-25%, -52%);
   }
 
   .title {
@@ -399,11 +467,39 @@ footer {
   }
 
   .align-text {
-    padding-top: 15%;
+    vertical-align: middle;
   }
 
   .push-in {
-    margin-left: 10%;
-    margin-right: 10%;
+    margin-left: 20%;
+    margin-right: 20%;
+  }
+
+  .push-in-2 {
+    margin-left: 20%;
+    margin-right: 20%;
+  }
+
+  .img-border {
+    background-color: #fff;
+    border: solid 10px white
+  }
+
+  .img-border-spec {
+    background-color: #fff;
+    border-bottom: solid 20px white
+  }
+
+  .photo-border {
+    margin-left: 1%;
+    margin-right: 1%;
+  }
+
+  .push-fix {
+    margin-bottom: .65rem
+  }
+
+  .gutter-double {
+    padding: 10px;
   }
 }
